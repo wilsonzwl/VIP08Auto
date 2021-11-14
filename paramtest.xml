@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="qiantai" value="http://www.testingedu.com.cn:8000"></parameter>
+    <parameter name="houtai" value="http://www.testingedu.com.cn:8000/Admin/Admin/login"></parameter>
+    <parameter name="password" value="123456"></parameter>
+    <test verbose="2" preserve-order="true"
+          name="D:/IdeaProjects/LoginTest8/VIP08Auto/src/test/java/com/testing/class18/TpshopTest.java">
+        <classes>
+            <class name="com.testing.class18.TpshopTest">
+                <methods>
+                    <include name="visitUrl"/>
+                    <include name="login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="D:/IdeaProjects/LoginTest8/VIP08Auto/src/test/java/com/testing/class18/TpAdminTest.java">
+        <classes>
+            <class name="com.testing.class18.TpAdminTest">
+                <methods>
+                    <include name="visitAdmin"/>
+                    <include name="adminLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

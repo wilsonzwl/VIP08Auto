@@ -1,0 +1,7 @@
+2021-08-12 00:43:41:862 [Appium] Welcome to Appium v1.18.0
+2021-08-12 00:43:41:865 [Appium] Non-default server args:
+2021-08-12 00:43:41:865 [Appium]   port: 50111
+2021-08-12 00:43:41:866 [Appium]   logFile: logs/20210812+00-43-39AppiumLog.txt
+2021-08-12 00:43:41:867 [Appium]   logTimestamp: true
+2021-08-12 00:43:41:868 [Appium]   localTimezone: true
+2021-08-12 00:43:41:905 [Appium] Appium REST http interface listener started on 0.0.0.0:50111
